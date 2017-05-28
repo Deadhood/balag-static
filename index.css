@@ -1,0 +1,31 @@
+.table {
+  display: table 
+}
+
+
+.table > div {
+  display: table-row 
+}
+
+
+.table > div > label, .table > div div {
+	display: table-cell;
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-left: none
+}
+
+
+
+.table > div > label:first-child, .table > div div:first-child {
+	border-left: 1px solid #ccc; }
+  .table > div > div {
+  min-width: 100px; 
+}
+
+
+
+
+input[type=text] {
+  border: none;
+  background-color: lightgrey; }
