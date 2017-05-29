@@ -10,7 +10,7 @@
 
 <body>
 
-<!--<form action="/">-->
+<form name='govt' action="/data" method="POST">
 	
 	
 	<div>
@@ -797,9 +797,13 @@
   
 	
 	<div id='onnanno'></div>
-	<button onclick='handleClick()'>পরিবারের অন্যান্য সদস্যদের তথ্য সংযোগ করতে ক্লিক করুন</button>	
 	
-<!--</form>-->
+	<button type='button' onclick='handleClick()'>পরিবারের অন্যান্য সদস্যদের তথ্য সংযোগ করতে ক্লিক করুন</button>
+
+	<br /><br />
+	<button onclick='document.forms.govt.submit()'>FINAL</button>
+	
+</form>
 
 
 <script src="index.js"></script>
